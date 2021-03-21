@@ -16,7 +16,7 @@ function doArithmetic() {
    
     const principal = parseFloat(amount.value);
     const calculatedInterest = parseFloat(interest.value) / 100 / 12;
-    const calculatedPayments = parseFloat(years.value) * 12;
+    const calculatedPayments = parseFloat(years.value) ;
    
     // Computed Monthly payment
     const x = Math.pow(1 + calculatedInterest, calculatedPayments);
